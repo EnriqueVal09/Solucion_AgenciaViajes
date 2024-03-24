@@ -13,5 +13,16 @@ namespace AgenciaViajes
         {
 
         }
+        protected void ButtonSend_Click(object sender, EventArgs e)
+        {
+            string name = TextBoxName.Text;
+            string subject = TextBoxSubject.Text;
+            string email = TextBoxEmail.Text;
+            string message = TextBoxMessage.Text;
+
+            // Aquí puedes añadir la lógica para manejar los datos del formulario,
+            // como enviar un correo electrónico o guardar la información en una base de datos.
+        }
+
     }
 }
