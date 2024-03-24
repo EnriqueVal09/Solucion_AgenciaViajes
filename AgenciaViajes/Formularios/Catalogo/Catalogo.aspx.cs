@@ -18,16 +18,16 @@ namespace AgenciaViajes.Formularios.Catalgo
             switch (e.CommandArgument.ToString())
             {
                 case "Item1":
-                    Response.Redirect("DetalleItem1.aspx"); // Asumiendo que tienes una página para los detalles del item 1
+                    Response.Redirect("Tour_Item1.aspx"); 
                     break;
                 case "Item2":
-                    Response.Redirect("DetalleItem2.aspx"); // Asumiendo que tienes una página para los detalles del item 2
+                    Response.Redirect("Tour_Item2.aspx"); 
                     break;
                 case "Item3":
-                    Response.Redirect("DetalleItem3.aspx"); // Asumiendo que tienes una página para los detalles del item 3
+                    Response.Redirect("Tour_Item3.aspx");
                     break;
                 case "Item4":
-                    Response.Redirect(""); 
+                    Response.Redirect("Tour_Item4.aspx"); 
                     break;
                     // Agrega más casos según sea necesario
             }

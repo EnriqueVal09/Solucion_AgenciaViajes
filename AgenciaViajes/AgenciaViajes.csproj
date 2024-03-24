@@ -207,6 +207,10 @@
     <Content Include="assets\css\Typography.css" />
     <Content Include="favicon.ico" />
     <Content Include="Formularios\Catalogo\Catalogo.aspx" />
+    <Content Include="Formularios\Catalogo\Tour_Item1.aspx" />
+    <Content Include="Formularios\Catalogo\Tour_Item2.aspx" />
+    <Content Include="Formularios\Catalogo\Tour_Item3.aspx" />
+    <Content Include="Formularios\Catalogo\Tour_Item4.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -408,6 +412,34 @@
     <Compile Include="Formularios\Catalogo\Catalogo.aspx.designer.cs">
       <DependentUpon>Catalogo.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Catalogo\Tour_Item1.aspx.cs">
+      <DependentUpon>Tour_Item1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogo\Tour_Item1.aspx.designer.cs">
+      <DependentUpon>Tour_Item1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogo\Tour_Item2.aspx.cs">
+      <DependentUpon>Tour_Item2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogo\Tour_Item2.aspx.designer.cs">
+      <DependentUpon>Tour_Item2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogo\Tour_Item3.aspx.cs">
+      <DependentUpon>Tour_Item3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogo\Tour_Item3.aspx.designer.cs">
+      <DependentUpon>Tour_Item3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogo\Tour_Item4.aspx.cs">
+      <DependentUpon>Tour_Item4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Catalogo\Tour_Item4.aspx.designer.cs">
+      <DependentUpon>Tour_Item4.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -438,6 +470,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="assets\img\tours\tour1\" />
+    <Folder Include="assets\img\tours\tour2\" />
+    <Folder Include="assets\img\tours\tour3\" />
+    <Folder Include="assets\img\tours\tour4\" />
     <Folder Include="Estilos\" />
   </ItemGroup>
   <ItemGroup>
