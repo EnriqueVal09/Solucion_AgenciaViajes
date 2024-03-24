@@ -178,10 +178,10 @@
     <Content Include="assets\img\star-empty.svg" />
     <Content Include="assets\img\star-half-empty.svg" />
     <Content Include="assets\img\star.svg" />
-    <Content Include="assets\img\tech\image1.jpg" />
-    <Content Include="assets\img\tech\image2.jpg" />
-    <Content Include="assets\img\tech\image3.png" />
-    <Content Include="assets\img\tech\image4.jpg" />
+    <Content Include="assets\img\tours\image1.jpg" />
+    <Content Include="assets\img\tours\image2.jpg" />
+    <Content Include="assets\img\tours\image3.jpg" />
+    <Content Include="assets\img\tours\image4.jpg" />
     <Content Include="assets\js\baguetteBox.min.js" />
     <Content Include="assets\js\theme.js" />
     <Content Include="assets\js\vanilla-zoom.js" />
@@ -204,7 +204,7 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
-    <Content Include="Estilos\StyleSheetTipography.css" />
+    <Content Include="assets\css\Typography.css" />
     <Content Include="favicon.ico" />
     <Content Include="Formularios\Catalogo\Catalogo.aspx" />
     <Content Include="Global.asax" />
@@ -438,6 +438,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Estilos\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

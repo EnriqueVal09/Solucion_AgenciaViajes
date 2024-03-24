@@ -15,10 +15,12 @@
     <webopt:BundleReference runat="server" Path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">
+<%--    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">--%>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Lato:400,700|Open+Sans:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
     <link rel="stylesheet" href="~/assets/css/baguetteBox.min.css">
     <link rel="stylesheet" href="~/assets/css/vanilla-zoom.min.css">
+    <link href="~/assets/css/Typography.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <form runat="server">
