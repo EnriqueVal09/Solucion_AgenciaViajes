@@ -211,6 +211,7 @@
     <Content Include="Formularios\Catalogo\Tour_Item2.aspx" />
     <Content Include="Formularios\Catalogo\Tour_Item3.aspx" />
     <Content Include="Formularios\Catalogo\Tour_Item4.aspx" />
+    <Content Include="Formularios\Reservacion\Asientos.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -440,6 +441,13 @@
     <Compile Include="Formularios\Catalogo\Tour_Item4.aspx.designer.cs">
       <DependentUpon>Tour_Item4.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Reservacion\Asientos.aspx.cs">
+      <DependentUpon>Asientos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Reservacion\Asientos.aspx.designer.cs">
+      <DependentUpon>Asientos.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -474,7 +482,6 @@
     <Folder Include="assets\img\tours\tour2\" />
     <Folder Include="assets\img\tours\tour3\" />
     <Folder Include="assets\img\tours\tour4\" />
-    <Folder Include="Estilos\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
