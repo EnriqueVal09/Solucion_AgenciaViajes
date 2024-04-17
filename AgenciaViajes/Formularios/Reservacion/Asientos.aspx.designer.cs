@@ -15,22 +15,22 @@ namespace AgenciaViajes.Formularios.Reservacion
     {
 
         /// <summary>
-        /// Control Button04.
+        /// Control Button4.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button04;
+        protected global::System.Web.UI.WebControls.Button Button4;
 
         /// <summary>
-        /// Control Button08.
+        /// Control Button8.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button08;
+        protected global::System.Web.UI.WebControls.Button Button8;
 
         /// <summary>
         /// Control Button12.
@@ -87,22 +87,22 @@ namespace AgenciaViajes.Formularios.Reservacion
         protected global::System.Web.UI.WebControls.Button Button32;
 
         /// <summary>
-        /// Control Button03.
+        /// Control Button3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button03;
+        protected global::System.Web.UI.WebControls.Button Button3;
 
         /// <summary>
-        /// Control Button07.
+        /// Control Button7.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button07;
+        protected global::System.Web.UI.WebControls.Button Button7;
 
         /// <summary>
         /// Control Button11.
@@ -159,22 +159,22 @@ namespace AgenciaViajes.Formularios.Reservacion
         protected global::System.Web.UI.WebControls.Button Button31;
 
         /// <summary>
-        /// Control Button02.
+        /// Control Button2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button02;
+        protected global::System.Web.UI.WebControls.Button Button2;
 
         /// <summary>
-        /// Control Button06.
+        /// Control Button6.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button06;
+        protected global::System.Web.UI.WebControls.Button Button6;
 
         /// <summary>
         /// Control Button10.
@@ -231,31 +231,31 @@ namespace AgenciaViajes.Formularios.Reservacion
         protected global::System.Web.UI.WebControls.Button Button30;
 
         /// <summary>
-        /// Control Button01.
+        /// Control Button1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button01;
+        protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
-        /// Control Button05.
+        /// Control Button5.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button05;
+        protected global::System.Web.UI.WebControls.Button Button5;
 
         /// <summary>
-        /// Control Button09.
+        /// Control Button9.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button09;
+        protected global::System.Web.UI.WebControls.Button Button9;
 
         /// <summary>
         /// Control Button13.

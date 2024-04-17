@@ -49,7 +49,7 @@ namespace AgenciaViajes.Formularios.Reservacion
         protected void btnContinuar_Click(object sender, EventArgs e)
         {
             InsertarPassajeros();
-            Response.Redirect("~/");
+            Response.Redirect("~/Formularios/Avisos/Gracias.aspx");
         }
 
         protected void InsertarPassajeros()
@@ -82,7 +82,7 @@ namespace AgenciaViajes.Formularios.Reservacion
                     MostrarAlerta(ex.Message); // Mostrar el mensaje de error
                 }
             }
-            else { MostrarAlerta("ola"); }
+            else { }
 
         }
 

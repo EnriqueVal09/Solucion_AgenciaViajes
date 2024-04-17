@@ -30,8 +30,8 @@
                             <!-- Primera sección de asientos (Izquierda) -->
                             <div class="section">
                                 <div class="d-flex flex-row justify-content-center">
-                                    <asp:Button ID="Button04" CssClass="seat" Text="04" runat="server" OnClick="Seat_Click"/>
-                                    <asp:Button ID="Button08" CssClass="seat" Text="08" runat="server" OnClick="Seat_Click"/>
+                                    <asp:Button ID="Button4" CssClass="seat" Text="4" runat="server" OnClick="Seat_Click"/>
+                                    <asp:Button ID="Button8" CssClass="seat" Text="8" runat="server" OnClick="Seat_Click"/>
                                     <asp:Button ID="Button12" CssClass="seat" Text="12" runat="server" OnClick="Seat_Click"/>
                                     <asp:Button ID="Button16" CssClass="seat" Text="16" runat="server" OnClick="Seat_Click"/>
                                     <asp:Button ID="Button24" CssClass="seat" Text="24" runat="server" OnClick="Seat_Click"/>
@@ -41,8 +41,8 @@
                                     
                                 </div>
                                 <div class="d-flex flex-row justify-content-center">
-                                    <asp:Button ID="Button03" CssClass="seat" Text="03" runat="server" OnClick="Seat_Click"/>
-                                    <asp:Button ID="Button07" CssClass="seat" Text="07" runat="server" OnClick="Seat_Click"/>
+                                    <asp:Button ID="Button3" CssClass="seat" Text="3" runat="server" OnClick="Seat_Click"/>
+                                    <asp:Button ID="Button7" CssClass="seat" Text="7" runat="server" OnClick="Seat_Click"/>
                                     <asp:Button ID="Button11" CssClass="seat" Text="11" runat="server" OnClick="Seat_Click"/>
                                     <asp:Button ID="Button15" CssClass="seat" Text="15" runat="server" OnClick="Seat_Click"/>
                                     <asp:Button ID="Button19" CssClass="seat" Text="19" runat="server" OnClick="Seat_Click"/>
@@ -57,8 +57,8 @@
                             <!-- Segunda sección de asientos (Derecha) -->
                             <div class="section">
                                 <div class="d-flex flex-row justify-content-center">
-                                    <asp:Button ID="Button02" CssClass="seat" Text="02" runat="server" OnClick="Seat_Click"/>
-                                    <asp:Button ID="Button06" CssClass="seat" Text="06" runat="server" OnClick="Seat_Click"/>
+                                    <asp:Button ID="Button2" CssClass="seat" Text="2" runat="server" OnClick="Seat_Click"/>
+                                    <asp:Button ID="Button6" CssClass="seat" Text="6" runat="server" OnClick="Seat_Click"/>
                                     <asp:Button ID="Button10" CssClass="seat" Text="10" runat="server" OnClick="Seat_Click"/>
                                     <asp:Button ID="Button14" CssClass="seat" Text="14" runat="server" OnClick="Seat_Click"/>
                                     <asp:Button ID="Button18" CssClass="seat" Text="18" runat="server" OnClick="Seat_Click"/>
@@ -68,9 +68,9 @@
                                    
                                 </div>
                                 <div class="d-flex flex-row justify-content-center">
-                                    <asp:Button ID="Button01" CssClass="seat" Text="01" runat="server" OnClick="Seat_Click"/>
-                                    <asp:Button ID="Button05" CssClass="seat" Text="05" runat="server" OnClick="Seat_Click"/>
-                                    <asp:Button ID="Button09" CssClass="seat" Text="09" runat="server" OnClick="Seat_Click"/>
+                                    <asp:Button ID="Button1" CssClass="seat" Text="1" runat="server" OnClick="Seat_Click"/>
+                                    <asp:Button ID="Button5" CssClass="seat" Text="5" runat="server" OnClick="Seat_Click"/>
+                                    <asp:Button ID="Button9" CssClass="seat" Text="9" runat="server" OnClick="Seat_Click"/>
                                     <asp:Button ID="Button13" CssClass="seat" Text="13" runat="server" OnClick="Seat_Click"/>
                                     <asp:Button ID="Button17" CssClass="seat" Text="17" runat="server" OnClick="Seat_Click"/>
                                     <asp:Button ID="Button21" CssClass="seat" Text="21" runat="server" OnClick="Seat_Click"/>

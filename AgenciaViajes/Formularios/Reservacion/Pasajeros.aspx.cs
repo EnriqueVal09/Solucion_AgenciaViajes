@@ -33,7 +33,7 @@ namespace AgenciaViajes.Formularios.Reservacion
             }
 
                 List<string> selectedSeats = Session["SelectedSeats"] as List<string>;
-                //ActivateLabels(selectedSeats.Count);
+                ActivateLabels(selectedSeats.Count);
             }
         }
 

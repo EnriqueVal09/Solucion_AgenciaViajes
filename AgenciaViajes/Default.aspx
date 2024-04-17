@@ -3,11 +3,10 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <main class="page landing-page">
-        <section class="clean-block clean-hero" style="background-image: url(&quot;assets/img/tech/image4.jpg&quot;); color: rgba(9, 162, 255, 0.85);">
+        <section class="clean-block clean-hero" style="background-image: url(&quot;assets/img/scenery/home.jpg&quot;); color: rgba(9, 162, 255, 0.85);">
             <div class="text">
                 <h2>Explora México con IxmiTours</h2>
                 <p>Descubre la belleza de los paisajes y la rica cultura mexicana con nuestros tours curados. Vive aventuras inolvidables en cada rincón de la república.</p>
-                <button class="btn btn-outline-light btn-lg" type="button">Aprende Más</button>
             </div>
         </section>
         <section class="clean-block clean-info dark">
@@ -18,7 +17,7 @@
                 </div>
                 <div class="row align-items-center">
                     <div class="col-md-6">
-                        <img class="img-thumbnail" src="assets/img/scenery/image5.jpg"></div>
+                        <img class="img-thumbnail" src="assets/img/scenery/home2.jpg"></div>
                     <div class="col-md-6">
                         <h3>Tours personalizados</h3>
                         <div class="getting-started-info">
@@ -87,12 +86,12 @@
             <div class="container">
                 <div class="block-heading">
                     <h2 class="text-info">Sobre Nosotros</h2>
-                    <p>Conoce al equipo que hace posible tus aventuras. IxmiTours está fundado por apasionados de los viajes que aman compartir la magia de México.</p>
+                    <p>Conoce al equipo que hace posible tus aventuras. IxmiTours está desarrollado por apasionados de los viajes que aman compartir la magia de México.</p>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-sm-6 col-lg-4">
                         <div class="card text-center clean-card">
-                            <img class="card-img-top w-100 d-block" src="assets/img/avatars/avatar1.jpg">
+                            <img class="card-img-top w-100 d-block" src="assets/img/avatars/usuario.png">
                             <div class="card-body info">
                                 <h4 class="card-title">Enrique</h4>
                                 <p class="card-text">Experto en cultura y tradiciones mexicanas, Enrique te llevará a los rincones más emblemáticos del país.</p>
@@ -102,7 +101,7 @@
                     </div>
                     <div class="col-sm-6 col-lg-4">
                         <div class="card text-center clean-card">
-                            <img class="card-img-top w-100 d-block" src="assets/img/avatars/avatar2.jpg">
+                            <img class="card-img-top w-100 d-block" src="assets/img/avatars/usuario.png">
                             <div class="card-body info">
                                 <h4 class="card-title">Farid</h4>
                                 <p class="card-text">Farid, amante de la aventura y los paisajes naturales, asegura que cada tour esté lleno de emociones y descubrimientos.</p>
@@ -112,7 +111,7 @@
                     </div>
                     <div class="col-sm-6 col-lg-4">
                         <div class="card text-center clean-card">
-                            <img class="card-img-top w-100 d-block" src="assets/img/avatars/avatar3.jpg">
+                            <img class="card-img-top w-100 d-block" src="assets/img/avatars/usuario.png">
                             <div class="card-body info">
                                 <h4 class="card-title">Fabricio</h4>
                                 <p class="card-text">Fabricio, con su gran experiencia en logística, garantiza que tu viaje sea cómodo y sin contratiempos.</p>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
@@ -15,6 +16,7 @@ namespace AgenciaViajes.Formularios.Reservacion
             if (!IsPostBack)
             {
                 SetInfo();
+                ShowAvaliableSeats();
             }
         }
 
@@ -139,7 +141,44 @@ namespace AgenciaViajes.Formularios.Reservacion
 
         protected void ShowAvaliableSeats()
         {
+            try
+            {
+                string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
+                string query = "SELECT id_asiento, seccion, numero, estado FROM [dbo].[Asientos]";
 
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            // Leer los resultados
+                            while (reader.Read())
+                            {
+                                // Asumiendo que tienes columnas para id_asiento, seccion, numero, y estado
+                                string id_asiento = reader["numero"].ToString();
+                                string estado = reader["estado"].ToString();
+                                
+
+                                Button seatButton = (Button)Page.FindControl("Button" + id_asiento);
+                                if (seatButton != null)
+                                {
+                                    if (estado == "disponible")
+                                        seatButton.CssClass = "seat";
+                                    else
+                                        seatButton.CssClass = "seat selected";
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                
+            }
         }
     }
 }
