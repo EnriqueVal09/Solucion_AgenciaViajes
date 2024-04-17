@@ -166,6 +166,10 @@
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="assets\bootstrap\css\bootstrap.min.css" />
     <Content Include="assets\css\baguetteBox.min.css" />
+    <Content Include="assets\css\custom_buttons.css" />
+    <Content Include="assets\css\payForm.css" />
+    <Content Include="assets\css\progress-bar.css" />
+    <Content Include="assets\css\SeatsStyle.css" />
     <Content Include="assets\css\vanilla-zoom.min.css" />
     <Content Include="assets\img\avatars\avatar1.jpg" />
     <Content Include="assets\img\avatars\avatar2.jpg" />
@@ -182,6 +186,9 @@
     <Content Include="assets\img\tours\image2.jpg" />
     <Content Include="assets\img\tours\image3.jpg" />
     <Content Include="assets\img\tours\image4.jpg" />
+    <Content Include="assets\img\tours\tour1\Grutas.jpg" />
+    <Content Include="assets\img\tours\tour1\grutas2.jpeg" />
+    <Content Include="assets\img\tours\tour1\grutas3.png" />
     <Content Include="assets\js\baguetteBox.min.js" />
     <Content Include="assets\js\theme.js" />
     <Content Include="assets\js\vanilla-zoom.js" />
@@ -212,6 +219,9 @@
     <Content Include="Formularios\Catalogo\Tour_Item3.aspx" />
     <Content Include="Formularios\Catalogo\Tour_Item4.aspx" />
     <Content Include="Formularios\Reservacion\Asientos.aspx" />
+    <Content Include="Formularios\Reservacion\Confirmacion.aspx" />
+    <Content Include="Formularios\Reservacion\Pago.aspx" />
+    <Content Include="Formularios\Reservacion\Pasajeros.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -448,6 +458,27 @@
     <Compile Include="Formularios\Reservacion\Asientos.aspx.designer.cs">
       <DependentUpon>Asientos.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Reservacion\Confirmacion.aspx.cs">
+      <DependentUpon>Confirmacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Reservacion\Confirmacion.aspx.designer.cs">
+      <DependentUpon>Confirmacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Reservacion\Pago.aspx.cs">
+      <DependentUpon>Pago.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Reservacion\Pago.aspx.designer.cs">
+      <DependentUpon>Pago.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Reservacion\Pasajeros.aspx.cs">
+      <DependentUpon>Pasajeros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Reservacion\Pasajeros.aspx.designer.cs">
+      <DependentUpon>Pasajeros.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -478,7 +509,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="assets\img\tours\tour1\" />
     <Folder Include="assets\img\tours\tour2\" />
     <Folder Include="assets\img\tours\tour3\" />
     <Folder Include="assets\img\tours\tour4\" />

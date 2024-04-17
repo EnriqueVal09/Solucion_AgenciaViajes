@@ -21,6 +21,11 @@
     <link rel="stylesheet" href="~/assets/css/baguetteBox.min.css">
     <link rel="stylesheet" href="~/assets/css/vanilla-zoom.min.css">
     <link href="~/assets/css/Typography.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="~/assets/css/SeatsStyle.css"/>
+    <link rel="stylesheet" href="~/assets/css/progress-bar.css">
+    <link rel="stylesheet" href="~/assets/css/custom_buttons.css">
+    <link rel="stylesheet" href="~/assets/css/payForm.css">
+    <script src="https://sdk.mercadopago.com/js/v2"></script>
 </head>
 <body>
     <form runat="server">
@@ -39,6 +44,7 @@
                 <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
                 <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
                 <asp:ScriptReference Name="WebFormsBundle" />
+
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
@@ -95,6 +101,11 @@
 
         <!-- Bootstrap Bundle con Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        
+        <script>
+            const mp = new MercadoPago("TEST-e9507099-4a18-4489-8488-c18e619e6b44");
+        </script>
     </asp:PlaceHolder>
 </body>
 </html>

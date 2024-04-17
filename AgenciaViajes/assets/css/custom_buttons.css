@@ -1,0 +1,43 @@
+
+/* Clase base para botones */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  transition: background 0.3s, transform 0.3s;
+}
+
+/* Clase para botón primario con color #1C2F40 */
+.btn-primary {
+  background-color: #1C2F40;
+  color: #fff;
+}
+
+/* Clase para botón primario con efecto de hover */
+.btn-primary:hover {
+  background-color: #163345; /* Un tono ligeramente más claro que #1C2F40 */
+  transform: translateY(-2px);
+}
+
+/* Clase para botón primario desactivado */
+.btn-primary:disabled {
+  background-color: #1C2F40;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Clase para botón con borde y color de texto #1C2F40 */
+.btn-outline {
+  color: #1C2F40;
+  border: 2px solid #1C2F40;
+  background-color: transparent;
+}
+
+/* Clase para botón con borde y efecto de hover */
+.btn-outline:hover {
+  background-color: #1C2F40;
+  color: #fff;
+}

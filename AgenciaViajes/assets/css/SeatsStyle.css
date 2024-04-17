@@ -1,0 +1,51 @@
+﻿.seat-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.seat {
+    width: 2rem;
+    height: 2rem;
+    margin: 0.3rem;
+    font-size: 0.75rem;
+    border: 1px solid #000;
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+.seat:not(.occupied):hover,
+.seat.selected {
+    background-color: #6c757d;
+    color: white;
+}
+
+.occupied {
+    background-color: #dc3545;
+    color: white;
+}
+
+.aisle {
+    width: 100%;  /* Asegúrate de que el pasillo tenga un ancho significativo */
+    height: 4rem; /* Aumenta la altura para hacer el pasillo más grande */
+    clear: both;
+    order: 2; /* Mantiene el pasillo en el medio usando flexbox order */
+    margin: 1rem 0; /* Agrega margen vertical para más separación */
+}
+
+@media (max-width: 768px) {
+    .seat-wrapper {
+        flex-direction: column;
+    }
+
+    .aisle {
+        order: 0; /* El pasillo arriba en dispositivos móviles */
+        height: 2rem; /* Altura menor para ajuste en móviles */
+    }
+}

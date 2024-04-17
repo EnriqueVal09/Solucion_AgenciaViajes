@@ -1,0 +1,36 @@
+﻿/* progress-bar.css */
+.progress {
+    border: 1px solid #1C2F40; /* Añade un borde a la barra de progreso completa */
+    border-radius: 0.5rem; /* Bordes redondeados para la barra de progreso completa */
+}
+
+
+
+.progress-bar:first-child {
+    background-color: #1C2F40; /* Color para el primer elemento completado */
+    border-top-left-radius: 0.5rem; /* Bordes redondeados para el primer elemento, se mantienen para evitar sobreescribir */
+    border-bottom-left-radius: 0.5rem; /* Bordes redondeados para el primer elemento, se mantienen para evitar sobreescribir */
+}
+
+.progress-bar:last-child {
+    border-top-right-radius: 0.5rem; /* Bordes redondeados para el último elemento, se mantienen para evitar sobreescribir */
+    border-bottom-right-radius: 0.5rem; /* Bordes redondeados para el último elemento, se mantienen para evitar sobreescribir */
+}
+
+/* Estilos para los elementos no completados de la barra de progreso */
+.progress-bar.bg-light {
+    background-color: #F0F2F2;
+}
+
+.progress-bar.custom-progress {
+    background-color: #1C2F40;
+}
+
+/* Títulos de la barra de progreso */
+.progress-title {
+    position: absolute;
+    top: 100%;
+    transform: translateX(-50%);
+    display: block;
+}
+
