@@ -18,5 +18,10 @@ namespace AgenciaViajes.Formularios.Catalogo
         {
             Response.Redirect("~/Formularios/Reservacion/Asientos.aspx");
         }
+
+        protected void btnPaqueteria_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Formularios/Reservacion/Paqueteria.aspx");
+        }
     }
 }

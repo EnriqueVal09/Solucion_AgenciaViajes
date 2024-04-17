@@ -1,6 +1,63 @@
 ﻿<%@ Page Title="Registrarse" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="AgenciaViajes.Account.Register" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
+    <style>
+        /* Estilos generales del formulario */
+        main {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #ffffff; /* Fondo blanco */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+        }
+
+        .text-danger {
+            color: #dc3545; /* Mantenemos el rojo para errores para mejor legibilidad */
+        }
+
+        h2, h4 {
+            text-align: center;
+            color: #007bff; /* Azul para los títulos */
+        }
+
+        hr {
+            border-color: #007bff; /* Separador en azul */
+        }
+
+        .row {
+            margin-bottom: 15px; /* Espaciado entre filas */
+        }
+
+        .col-form-label {
+            color: #495057; /* Color oscuro para las etiquetas, para contraste */
+        }
+
+        .form-control {
+            border-radius: 5px; /* Bordes suavizados para los campos de entrada */
+            border: 1px solid #007bff; /* Borde azul para destacar los campos */
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); /* Sombra interior suave */
+        }
+
+        .btn-outline-dark {
+            border-color: #007bff; /* Borde azul */
+            color: #007bff; /* Texto azul */
+            background-color: transparent; /* Fondo transparente */
+            transition: all 0.3s; /* Transición suave al interactuar */
+        }
+
+            .btn-outline-dark:hover {
+                background-color: #007bff; /* Fondo azul al pasar el ratón */
+                color: white; /* Texto blanco para contraste */
+            }
+
+        /* Ajustes para dispositivos más pequeños */
+        @media (max-width: 768px) {
+            .col-md-10, .offset-md-2 {
+                margin-top: 10px;
+            }
+        }
+    </style>
+
     <main aria-labelledby="title">
         <h2 id="title"><%: Title %>.</h2>
         <p class="text-danger">
@@ -41,4 +98,5 @@
             </div>
         </div>
     </main>
+
 </asp:Content>

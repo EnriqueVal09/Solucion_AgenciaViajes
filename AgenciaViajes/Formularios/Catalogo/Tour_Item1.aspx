@@ -41,8 +41,9 @@
                                 </figure>
                             </div>
                         </div>
-                        <div class="justify-content-center">
+                        <div class="justify-content-center ">
                             <asp:Button CssClass="btn btn-primary w-100" ID="btnReservar" runat="server" Text="Reservar Ahora" OnClick="btnReservar_Click" />
+                            <asp:Button CssClass="btn btn-primary w-100" ID="btnPaqueteria" runat="server" Text="Paqueteria" OnClick="btnPaqueteria_Click" />
                         </div>
                     </div>
                 </div>

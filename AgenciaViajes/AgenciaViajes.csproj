@@ -226,6 +226,7 @@
     <Content Include="Formularios\Reservacion\Asientos.aspx" />
     <Content Include="Formularios\Reservacion\Confirmacion.aspx" />
     <Content Include="Formularios\Reservacion\Pago.aspx" />
+    <Content Include="Formularios\Reservacion\Paqueteria.aspx" />
     <Content Include="Formularios\Reservacion\Pasajeros.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -490,6 +491,13 @@
     </Compile>
     <Compile Include="Formularios\Reservacion\Pago.aspx.designer.cs">
       <DependentUpon>Pago.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Reservacion\Paqueteria.aspx.cs">
+      <DependentUpon>Paqueteria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios\Reservacion\Paqueteria.aspx.designer.cs">
+      <DependentUpon>Paqueteria.aspx</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Reservacion\Pasajeros.aspx.cs">
       <DependentUpon>Pasajeros.aspx</DependentUpon>
